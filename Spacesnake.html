@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<!--Created By Rylan Dmello-->
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>SpaceShips</title>
+<script src="Spacesnake.js"></script>
+<link rel="stylesheet" type="text/css" href="Spacesnake.css">
+</head>
+<body>
+
+<canvas id="a" width="200px" height="200px">UNSUPPORTED</canvas>
+<div id="settings">
+    <p id="firstparag">
+        <span style="text-align:center;font-size:x-large">Click To Play </span><br/>
+        <span style="text-align:center;font-size:x-large">RULES: </span><br/>
+        <span style="text-align:center;font-size:large">Spaceships (<img src="" id="balls"/>) will follow your mouse cursor.</span><br/>
+        <span style="text-align:center;font-size:large">Eat Planets (<img src="" id="good"/>), they will increase your score.</span>              <br/>
+        <span style="text-align:center;font-size:large">Avoid Aliens (<img src="" id="bad"/>), they will kill you.</span><br/>
+        <span style="text-align:center;font-size:large">Watch the timebar at top of the window</span><br/>
+        <span style="text-align:center;font-size:large">Don't run out of time!</span><br/><br/>
+        <span style="text-align:center;font-size:x-large">HIGHSCORE:<span id="highscorebloc">0</span></span><br/>
+    </p>
+    <p id="secondparag">
+    </p>
+</div>
+<div id="sett">
+    <b>Settings</b>
+    <div id="docent">
+        <span>Responsiveness <input class="tgconv" type="range" min="0.1" max="5" step="0.2"/>[<span class="tgconv"></span>]</span><br/>
+        <span>Deceleration <input class="tconv" type="range" min="3" max="800" step="10"/>[<span class="tconv"></span>]</span><br/>
+        <span>Speed <input class="ttimesw" type="range" min="8" max="40" step="1"/>[<span class="ttimesw"></span>]</span><br/>
+        <span>Start Level <input class="tstartlevel" type="range" min="1" max="50" step="1"/>[<span class="tstartlevel"></span>]</span><br/>
+        <span>Timer Speed <input class="ttimeratioorig" type="range" min="0" max="2" step="0.1"/>[<span class="ttimeratioorig"></span>]</span><br/>
+
+        <hr/><span><b>Images: </b></span><br/>
+        <span>Spaceships  </span><input type="text" id="tballs"/><br/>
+        <span>Good Guys  </span><input type="text" id="tgoodguys"/> <br/>
+        <span>Bad Guys  </span><input type="text" id="tbadguys"/>  <br/>
+        <button id="resetDefaults">Reset</button>
+        <button id="savenew">Save and Continue</button>
+        <!--ADD SUPPORT FOR BACKGROUND IMAGE AND BORDER COLOR!-->
+    </div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,36 @@
+#settings {
+    position:absolute;
+    top:0px;
+    left:0px;
+    display:none;
+    height:600px;
+    width:600px;
+    color:blue
+}
+p {
+    position: relative;
+    text-align: center;
+    font: x-large 'Essays 1743','Marker Felt','Kristen ITC','Viner Hand ITC','Times New Roman',serif
+}
+#firstparag {
+    top:180px;
+}
+#secondparag {
+    top:200px;
+}
+#sett {
+    z-index:120;
+    position:absolute;
+    top:22px;
+    left:22px;
+    font: x-large 'Essays 1743','Marker Felt','Kristen ITC','Viner Hand ITC','Times New Roman',serif;
+    color:blue;
+    background-color:rgba(0,0,255,0.1)
+}
+#docent {
+    font: small 'Times New Roman',serif;
+    display:inline-block;
+  /*  width:340px;
+    height:200px; */
+    display:none;
+}
